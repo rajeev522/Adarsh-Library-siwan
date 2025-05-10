@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Adarsh Library - The Key to Success in Siwan">
+    <title>Adarsh Library - The Key to Success in Siwan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <!-- Add this right after the opening body tag -->
+    <div class="nav-overlay"></div>
+
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png.jpg" alt="" class="logo-img">
+                <h1>Adarsh Library</h1>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#facilities">Facilities</a></li>
+                    <li><a href="#membership">Membership Plans</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#about">About Us</a></li>
+                </ul>
+            </div>
+            <div class="nav-buttons">
+                <a href="tel:9199728928" class="phone-button">
+                    <i class="fas fa-phone"></i>
+                    <span>9199728928</span>
+                </a>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Adarsh Library</h1>
+            <p class="hero-subtitle">The Key to Success in Siwan</p>
+            <p class="hero-description">A premium study space designed for competitive exam aspirants and lifelong learners. Experience the perfect blend of comfort, focus, and productivity in Siwan.</p>
+            <div class="hero-buttons">
+                <a href="#membership" class="cta-button primary">View Membership Plans</a>
+            </div>
+            <div class="hero-features">
+                <div class="feature">
+                    <i class="fas fa-clock"></i>
+                    <span>Open 7 Days</span>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-wifi"></i>
+                    <span>Free Wi-Fi</span>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-snowflake"></i>
+                    <span>AC Rooms</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <div class="section-header-content">
+                <h2>About Adarsh Library</h2>
+                <p>Your trusted partner in academic success</p>
+            </div>
+            <div class="section-menu">
+                <i class="fas fa-ellipsis-v"></i>
+                <div class="section-dropdown">
+                    <a href="#" class="dropdown-item"><i class="fas fa-share"></i> Share</a>
+                    <a href="#" class="dropdown-item"><i class="fas fa-bookmark"></i> Save</a>
+                    <a href="#" class="dropdown-item"><i class="fas fa-print"></i> Print</a>
+                </div>
+            </div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <div class="about-section">
+                    <h3>The Story Behind Adarsh Library</h3>
+                    <p>Adarsh Library was founded in 2025, inspired by the vision of Mr. Kailash Gupta. He believed in creating dedicated spaces that support learning and personal growth.</p>
+                </div>
+                <div class="about-section">
+                    <h3>Our Mission</h3>
+                    <p>At Adarsh Library, our mission is to provide a peaceful, well-equipped, and inspiring environment. We want to help people focus on their studies. We are committed to maintaining a clean, organized, and distraction-free space. This is where students and professionals can achieve their academic and career goals.</p>
+                </div>
+                <div class="about-section">
+                    <h3>Our Vision</h3>
+                    <p>We provide quality facilities, a supportive atmosphere, and a dedication to excellence. We aim to be the premier study destination in Siwan. Adarsh Library is dedicated to fostering a productive learning environment for everyone. We want to provide a space that supports your academic and professional aspirations.</p>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="logo.png.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities" class="facilities">
+        <div class="section-header">
+            <div class="section-header-content">
+                <h2>Our Premium Facilities</h2>
+                <p>Everything you need for an optimal study experience</p>
+            </div>
+            <div class="section-menu">
+                <i class="fas fa-ellipsis-v"></i>
+                <div class="section-dropdown">
+                    <a href="#" class="dropdown-item"><i class="fas fa-share"></i> Share</a>
+                    <a href="#" class="dropdown-item"><i class="fas fa-bookmark"></i> Save</a>
+                    <a href="#" class="dropdown-item"><i class="fas fa-print"></i> Print</a>
+                </div>
+            </div>
+        </div>
+        <div class="facilities-grid">
+            <div class="facility-card">
+                <div class="facility-icon">
+                    <i class="fas fa-snowflake"></i>
+                </div>
+                <h3>Air-Conditioned Study Rooms</h3>
+                <p>Stay comfortable and focused in our temperature-controlled study rooms.</p>
+            </div>
+            <div class="facility-card">
+                <div class="facility-icon">
+                    <i class="fas fa-wifi"></i>
+                </div>
+                <h3>High-Speed Wi-Fi</h3>
+                <p>Enjoy seamless internet connectivity for online learning and research.</p>
+            </div>
+            <div class="facility-card">
+                <div class="facility-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <h3>Personal Study Space</h3>
+                <p>Each desk is equipped with LED light and charging port.</p>
+            </div>
+            <div class="facility-card">
+                <div class="facility-icon">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <h3>Personal Lockers</h3>
+                <p>Secure storage for your belongings with 24/7 access.</p>
+            </div>
+            <div class="facility-card books">
+                <div class="facility-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <h3>Books Collection</h3>
+                <p>Access a wide range of books for competitive exams, academics, and personal growth.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="section-header">
+            <div class="section-header-content">
+                <h2>Our Gallery</h2>
+                <p>Take a look at our premium study space</p>
+            </div>
+            <div class="section-menu">
+                <i class="fas fa-ellipsis-v"></i>
+                <div class="section-dropdown">
+                    <a href="#" class="dropdown-item"><i class="fas fa-share"></i> Share</a>
+                    <a href="#" class="dropdown-item"><i class="fas fa-bookmark"></i> Save</a>
+                    <a href="#" class="dropdown-item"><i class="fas fa-print"></i> Print</a>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Study Space 1">
+                <div class="gallery-overlay">
+                    <h3>Main Study Hall</h3>
+                    <p>Spacious and well-lit study area</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Study Space 2">
+                <div class="gallery-overlay">
+                    <h3>Group Study Room</h3>
+                    <p>Perfect for collaborative learning</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Study Space 3">
+                <div class="gallery-overlay">
+                    <h3>Reading Corner</h3>
+                    <p>Comfortable seating for reading</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Study Space 4">
+                <div class="gallery-overlay">
+                    <h3>Library Collection</h3>
+                    <p>Extensive collection of books</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Study Space 5">
+                <div class="gallery-overlay">
+                    <h3>Discussion Area</h3>
+                    <p>Space for group discussions</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Study Space 6">
+                <div class="gallery-overlay">
+                    <h3>Computer Lab</h3>
+                    <p>Modern computer facilities</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add Books Section after Gallery -->
+    <section id="books" class="books">
+        <div class="section-header">
+            <div class="section-header-content">
+                <h2>Our Book Collection</h2>
+                <p>Explore our featured books and categories</p>
+            </div>
+            <div class="section-menu">
+                <i class="fas fa-ellipsis-v"></i>
+                <div class="section-dropdown">
+                    <a href="#" class="dropdown-item"><i class="fas fa-share"></i> Share</a>
+                    <a href="#" class="dropdown-item"><i class="fas fa-bookmark"></i> Save</a>
+                    <a href="#" class="dropdown-item"><i class="fas fa-print"></i> Print</a>
+                </div>
+            </div>
+        </div>
+        <div class="books-grid">
+            <div class="book-card">
+                <img src="https://covers.openlibrary.org/b/id/10523338-L.jpg" alt="Samany Gyan by Khan Sir">
+                <h3>Samany Gyan by Khan Sir</h3>
+                <p>Comprehensive general knowledge for all competitive exams.</p>
+            </div>
+            <div class="book-card">
+                <img src="https://covers.openlibrary.org/b/id/11153223-L.jpg" alt="Bihar Police by Khan Sir">
+                <h3>Bihar Police by Khan Sir</h3>
+                <p>Special preparation book for Bihar Police exams.</p>
+            </div>
+            <div class="book-card">
+                <img src="https://covers.openlibrary.org/b/id/10958339-L.jpg" alt="Cosmos Static GK">
+                <h3>Cosmos Static GK</h3>
+                <p>Static General Knowledge for all competitive exams.</p>
+            </div>
+            <div class="book-card">
+                <img src="https://covers.openlibrary.org/b/id/10594763-L.jpg" alt="Physics for JEE Main, Advanced & NEET Foundation (DISA)">
+                <h3>Physics for JEE Main, Advanced & NEET Foundation (DISA)</h3>
+                <p>Physics concepts and practice for JEE/NEET aspirants.</p>
+            </div>
+            <div class="book-card">
+                <img src="https://covers.openlibrary.org/b/id/10594763-L.jpg" alt="Maths for JEE Main, Advanced & Foundation (DISA)">
+                <h3>Maths for JEE Main, Advanced & Foundation (DISA)</h3>
+                <p>Mathematics for JEE/NEET and foundation courses.</p>
+            </div>
+            <div class="book-card">
+                <img src="https://covers.openlibrary.org/b/id/10594763-L.jpg" alt="Chemistry for JEE Main, Advanced & NEET Foundation (DISA)">
+                <h3>Chemistry for JEE Main, Advanced & NEET Foundation (DISA)</h3>
+                <p>Chemistry for JEE/NEET and foundation courses.</p>
+            </div>
+            <div class="book-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/29/29302.png" alt="More Books Available">
+                <h3>More books are available</h3>
+                <p>Visit our library to explore a wide range of books for every need.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section id="membership" class="membership">
+        <div class="section-header">
+            <div class="section-header-content">
+                <h2>Choose Your Perfect Plan</h2>
+                <p>Flexible membership options to suit your study needs</p>
+            </div>
+            <div class="section-menu">
+                <i class="fas fa-ellipsis-v"></i>
+                <div class="section-dropdown">
+                    <a href="#" class="dropdown-item"><i class="fas fa-share"></i> Share</a>
+                    <a href="#" class="dropdown-item"><i class="fas fa-bookmark"></i> Save</a>
+                    <a href="#" class="dropdown-item"><i class="fas fa-print"></i> Print</a>
+                </div>
+            </div>
+        </div>
+        <div class="plans-grid">
+            <div class="plan-card">
+                <div class="plan-header">
+                    <h3>4 Hours/Day</h3>
+                    <p class="price">₹600<span>/month</span></p>
+                </div>
+                <ul class="plan-features">
+                    <li><i class="fas fa-check"></i> Library Facilities (4 hours/day)</li>
+                    <li><i class="fas fa-check"></i> Choose your preferred time slot</li>
+                    <li><i class="fas fa-check"></i> Non-reserved seating</li>
+                    <li><i class="fas fa-check"></i> All basic amenities</li>
+                </ul>
+                <a href="#contact" class="plan-button">Get Started</a>
+            </div>
+            <div class="plan-card featured">
+                <div class="plan-badge">Most Popular</div>
+                <div class="plan-header">
+                    <h3>8 Hours/Day</h3>
+                    <p class="price">₹1100<span>/month</span></p>
+                </div>
+                <ul class="plan-features">
+                    <li><i class="fas fa-check"></i> Library Facilities (8 hours/day)</li>
+                    <li><i class="fas fa-check"></i> Choose your preferred time slot</li>
+                    <li><i class="fas fa-check"></i> Non-reserved seating</li>
+                    <li><i class="fas fa-check"></i> All premium amenities</li>
+                </ul>
+                <a href="#contact" class="plan-button">Get Started</a>
+            </div>
+            <div class="plan-card">
+                <div class="plan-header">
+                    <h3>14 Hours/Day</h3>
+                    <p class="price">₹1500<span>/month</span></p>
+                </div>
+                <ul class="plan-features">
+                    <li><i class="fas fa-check"></i> Library Facilities (14 hours/day)</li>
+                    <li><i class="fas fa-check"></i> Dedicated reserved seat</li>
+                    <li><i class="fas fa-check"></i> Leave books at desk</li>
+                    <li><i class="fas fa-check"></i> Personalized pinboard</li>
+                    <li><i class="fas fa-check"></i> All premium amenities</li>
+                </ul>
+                <a href="#contact" class="plan-button">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <div class="section-header-content">
+                <h2>Get in Touch</h2>
+                <p>We're here to help you find your perfect study space</p>
+            </div>
+            <div class="section-menu">
+                <i class="fas fa-ellipsis-v"></i>
+                <div class="section-dropdown">
+                    <a href="#" class="dropdown-item"><i class="fas fa-share"></i> Share</a>
+                    <a href="#" class="dropdown-item"><i class="fas fa-bookmark"></i> Save</a>
+                    <a href="#" class="dropdown-item"><i class="fas fa-print"></i> Print</a>
+                </div>
+            </div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    
+                    <div class="info-content">
+                        <h3>Our Location</h3>
+                        <p>Ander Dhala, Ram Nagar, Near Para Military Canteen, Laxmipur, Siwan</p>
+                        <p>Landmark: In front of Military Para Canteen</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div class="info-content">
+                        <h3>Call Us</h3>
+                        <p><a href="tel:9199728928">9199728928</a></p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div class="info-content">
+                        <h3>Email Us</h3>
+                        <p><a href="mailto:adarshlibrary@gmail.com">adarshlibrary@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Your Phone</label>
+                    <input type="tel" id="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <img src="logo.png.jpg" alt="" class="footer-logo">
+                <h3>Adarsh Library</h3>
+                <p>The Key to Success in Siwan.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <ul class="contact-list">
+                    <li><i class="fas fa-phone"></i> 9199728928</li>
+                    <li><i class="fas fa-envelope"></i> adarshlibrary@gmail.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Ander Dhala, Ram Nagar, Near Para Military Canteen, Laxmipur, Siwan</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Adarsh Library. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
